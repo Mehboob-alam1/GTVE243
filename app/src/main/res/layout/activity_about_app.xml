@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9e9d3"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AboutApp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@null"
+
+        android:src="@drawable/about_app_icon" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="10dp"
+        android:background="@layout/rounded_border_textview"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="GETVOICE application assists the mute and deaf people of Pakistan.GETVOICE application converts the Pakistan National Anthem expressed in Pakistan Sign Language into voice .GETVOICE application converts the Pakistan National Anthem expressed in Pakistan Sign Language into textIts simple interface makes it easy to use.The application contributes in reducing the communication gap between deaf/mute and normal people of Pakistan."
+        android:textColor="#5a9965"
+        android:textSize="18sp" />
+    
+
+</RelativeLayout>

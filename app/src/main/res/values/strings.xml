@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GETVOICE</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">welcome to GETVOICE</string>
+    <string name="user_manual">User Manual</string>
+    <string name="start_conversation">Start Conversation</string>
+    <string name="videos">Videos</string>
+    <string name="about_app">About Application</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_user_manual">GETVOICE</string>
+    <string name="title_activity_hello">Hello</string>
+    <string name="title_activity_start_conversation">StartConversation</string>
+    <string name="title_activity_videos">Videos</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="title_activity_pop_up">PopUP</string>
+    <string name="title_activity_pop_up1">PopUp1</string>
+    <string name="title_activity_dialog_start_convo">DialogStartConvo</string>
+    <string name="title_activity_dialogstart_convo1">DialogstartConvo1</string>
+
+</resources>

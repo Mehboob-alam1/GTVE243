@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.getvoice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+<!--    <uses-sdk-->
+<!--        android:minSdkVersion="8"-->
+<!--        android:targetSdkVersion="17" />-->
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.getvoice.MainActivity"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.getvoice.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.getvoice.Splash"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.getvoice.UserManual"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.getvoice.Hello"
+            android:label="@string/title_activity_hello"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.getvoice.StartConversation"
+            android:label="@string/title_activity_start_conversation" >
+        </activity>
+        <activity
+            android:name="com.example.getvoice.Videos"
+            android:label="@string/title_activity_videos"
+            android:screenOrientation="landscape">"
+        </activity>
+        <activity
+            android:name="com.example.getvoice.AboutApp"
+            android:label="@string/title_activity_about_app" >
+        </activity>
+<!--        <activity-->
+<!--            android:name="com.example.getvoice.PopUP"-->
+<!--            android:label="@string/title_activity_pop_up" >-->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name="com.example.getvoice.PopUp1"-->
+<!--            android:label="@string/title_activity_pop_up1" >-->
+<!--        </activity>-->
+<!--        <activity-->
+<!--            android:name="com.example.getvoice.PopUp"-->
+<!--            android:label="@string/title_activity_pop_up"-->
+<!--            android:theme="@style/AppTheme.CustomTheme" >-->
+
+<!--            -->
+<!--        </activity>-->
+        <activity
+            android:name="com.example.getvoice.DialogStartConvo"
+            android:label="@string/title_activity_dialog_start_convo" >
+        </activity>
+        <activity
+            android:name="com.example.getvoice.DialogstartConvo1"
+            android:label="@string/title_activity_dialogstart_convo1" >
+        </activity>
+    </application>
+
+</manifest>
